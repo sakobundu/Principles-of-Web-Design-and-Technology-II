@@ -8,7 +8,7 @@ body {
   padding-right: 16px;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: BurlyWood;
+  background-color: lightblue;
 }
 
 
@@ -48,7 +48,7 @@ nav a.active {
 }
 
 h1 {
-color: DarkSlateblue;
+color: white;
   text-align: center;
 font-family: Helvetica;
   font-size: 25px;
@@ -56,7 +56,7 @@ font-family: Helvetica;
 
 
 h2 {
-  color:DarkSlateblue ;
+  color:white;
   text-align: center;
   font-family: Helvetica;
   font-size: 20px;
