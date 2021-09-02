@@ -25,12 +25,12 @@ img {
   margin-right: auto;
 }
 
-.topnav {
+nav {
   overflow: hidden;
   background-color: #e9e9e9;
 }
 
-.topnav a {
+nav a {
   float: left;
   display: block;
   color: black;
@@ -40,12 +40,12 @@ img {
   font-size: 16px;
 }
 
-.topnav a:hover {
+nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+nav a.active {
   background-color: #2196F3;
   color: white;
 }
@@ -83,19 +83,19 @@ a[href] {
 * {
   box-sizing: border-box;
 }
-.menu {
+menu {
   float: left;
   width: 25%;
 }
 
-.main {
+main {
   float: left;
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
 }
 
-.footer {
+footer {
    position: fixed;
    bottom: 0px;
    text-align: center;
