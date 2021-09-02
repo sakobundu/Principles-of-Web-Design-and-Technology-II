@@ -1,10 +1,4 @@
-body {
-  background-color: BurlyWood;
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+
 
 body {
   max-width: 1170px;
@@ -12,6 +6,9 @@ body {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: BurlyWood;
 }
 
 
