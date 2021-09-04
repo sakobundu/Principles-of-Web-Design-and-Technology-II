@@ -104,7 +104,7 @@ font-family: Helvetica;
 
 
 p {
-  text-align: center;
+  text-align: left;
   
 }
 body {
@@ -121,7 +121,7 @@ a[href] {
   box-sizing: border-box;
 }
 menu {
-  float: left;
+  float: center;
   width: 25%;
 }
 
