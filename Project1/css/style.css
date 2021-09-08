@@ -124,7 +124,7 @@ main {
 }
 
 footer {
-   position: center;
+   position: absolute;
    bottom: 2px;
    text-align: center;
 }
