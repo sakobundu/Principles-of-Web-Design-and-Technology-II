@@ -40,6 +40,17 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
+.body {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+  font-family: "Lucida Sans", sans-serif;
+  background-color: LightGoldenRodYellow;
+}
+
 .header {
   background-color: #9933cc;
   color: #ffffff;
