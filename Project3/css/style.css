@@ -23,8 +23,13 @@ body
   position: relative;
 }
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
 /* Style navigation menu links */
-.nav a {
+.topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
