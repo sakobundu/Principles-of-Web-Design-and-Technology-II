@@ -76,6 +76,14 @@ body {
 
 }
 
+@font-face {
+   font-family: OpenType Font;
+   src: url(sansation_light.woff);
+}
+
+* {
+   font-family: OpenType Font;
+}
 footer {
    position: absolute;
   background-color: darkgreen;
