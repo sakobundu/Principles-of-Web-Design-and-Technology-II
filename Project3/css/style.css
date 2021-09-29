@@ -1,7 +1,7 @@
 
 body {
   background-color:#00b3b3;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: Arial;
   text-align: left;
   
 /* Style the navigation menu */
@@ -42,7 +42,7 @@ active {
   color: white;
 }
 @font-face {
-   font-family:"Lucida Sans", sans-serif ;
+   font-family: Arial;
    src: url(sansation_light.woff);
   font-weight: bold;
 }
