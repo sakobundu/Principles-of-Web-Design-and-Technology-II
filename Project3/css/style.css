@@ -42,15 +42,7 @@ bar {
 @font-face {
    font-family:"Lucida Sans", sans-serif ;
    src: url(sansation_light.woff);
-}
-@font-face {
-   font-family: "Lucida Sans", sans-serif;
-   src: url(sansation_bold.woff);
-   font-weight: bold;
-}
-
- {
-  font-family: "Lucida Sans", sans-serif;
+  font-weight: bold;
 }
 
 ul.breadcrumb {
