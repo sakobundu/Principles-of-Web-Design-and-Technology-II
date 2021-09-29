@@ -4,45 +4,38 @@ body {
   font-family: "Lucida Sans", sans-serif;
   text-align: left;
   
-  header {
-	.bordered
-  }
-  .primary-text{
-	color: #D2691E;
-  }
-  
-  .navbar {
+  navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
 }
 
-.nav-menu {
+nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-item {
+nav-item {
     margin-left: 5rem;
 }
 
-.nav-link{
+nav-link{
     font-size: 1.6rem;
     font-weight: 400;
     color: #475569;
 }
 
-.nav-link:hover{
+nav-link:hover{
     color: #482ff7;
 }
 
-.hamburger {
+hamburger {
     display: none;
 }
 
-.bar {
+bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -94,7 +87,7 @@ ul.breadcrumb li a:hover {
   box-sizing: border-box;
 }
 
-.row::after {
+row::after {
   content: "";
   clear: both;
   display: table;
@@ -105,19 +98,19 @@ ul.breadcrumb li a:hover {
   padding: 15px;
 }
 
-.header {
+header {
   background-color: #9933cc;
   color: #ffffff;
   padding: 15px;
 }
 
-.menu ul {
+menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.menu li {
+menu li {
   padding: 8px;
   margin-bottom: 7px;
   background-color: #33b5e5;
@@ -125,11 +118,11 @@ ul.breadcrumb li a:hover {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.menu li:hover {
+menu li:hover {
   background-color: #0099cc;
 }
 
-.aside {
+aside {
   background-color: #33b5e5;
   padding: 15px;
   color: #ffffff;
@@ -138,7 +131,7 @@ ul.breadcrumb li a:hover {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.wrapper {
+wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -180,7 +173,7 @@ ul.breadcrumb li a:hover {
 }
 
 
-.footer {
+footer {
   background-color: #0099cc;
   color: #ffffff;
   text-align: center;
