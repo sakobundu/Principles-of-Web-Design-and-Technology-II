@@ -9,14 +9,12 @@ body {
   background-color: LightGoldenRodYellow;
 }
 
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .mobile-container {
-  max-width: 480px;
+  max-width: 600px;
   margin: auto;
   background-color: #555;
   height: 500px;
