@@ -4,7 +4,7 @@ body {
   font-family: "Lucida Sans", sans-serif;
   text-align: left;
   
-  h1, h2, h3{
+  header {
 	.bordered
   }
   .primary-text{
