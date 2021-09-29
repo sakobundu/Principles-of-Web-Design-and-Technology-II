@@ -14,10 +14,10 @@ body {
 }
 
 .mobile-container {
-  max-width: 600px;
+  max-width: 768px;
   margin: auto;
   background-color: #555;
-  height: 768px;
+  height: 896px;
   color: white;
   border-radius: 10px;
 }
