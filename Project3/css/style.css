@@ -85,3 +85,10 @@ body {
    color: white;
    text-align: center;
 }
+footer {
+   position: absolute;
+  background-color: darkgreen;
+   color: white;
+   bottom: 2px;
+   text-align: center;
+}
