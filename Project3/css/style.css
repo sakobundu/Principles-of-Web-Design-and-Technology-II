@@ -56,7 +56,15 @@ body {
   [class*="col-"] {
     width: 100%;
   }
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -68,19 +76,15 @@ body {
 }
 
 .topnav a {
+  float: left;
   color: white;
-  padding: 20px 20px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
-  display: block;
+  font-size: 17px;
 }
 
 .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  float: right;
 }
 
 .topnav a:hover {
@@ -92,7 +96,6 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-
 .h1, .h2, .h3, .h4 {
 color: #ff9900;
   text-align: left;
