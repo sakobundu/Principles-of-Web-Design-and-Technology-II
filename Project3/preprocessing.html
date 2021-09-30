@@ -9,14 +9,19 @@
 	<title>Responsive Design and CSS Preprocessors</title>
 </head>
 <body>
-<h1>Preprocessing</h1>
 	
-	<div class="grid-container">
-  <div class="item1">Preprocessing</div>
- <a href="/index.html">Home</a>
+	<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <div id="myLinks">
+    <a href="/index.html">Home</a>
      <a href="/Project3/project3.html">Project 3</a>
-  <div class="item5">S unday Akobundu|2021© .</div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
 		
 <!-- Simulate a smartphone / tablet -->
 <div class="mobile-container"></div>
@@ -31,7 +36,8 @@ function myFunction() {
   }
 }
 </script>
-        
+<h1>Preprocessing</h1>
+	
 <h2>Different ways to implement preprocessing  (Client-side vs Server-side):</h2>
 
 <p>Client-side prepossessing can be implemented using JavaScript, and HTML scripts. Most client interaction with a website is input and output, that where JavaScript comes in. It runs the script on the client’s system when the website is loaded. Server-side preprocessing can be implemented using backend languages such as PHP. The script is running on the server which hosts the website and sends information to the front-end through HTML code. </p>
