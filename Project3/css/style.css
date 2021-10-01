@@ -15,7 +15,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 }
 @media only screen and (min-width: 600px) {
   /* For tablets: */
@@ -58,15 +57,19 @@ body {
 }
 
 .topnav a {
-  float: left;
   color: white;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  display: block;
 }
 
 .topnav a.icon {
-  float: right;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
@@ -78,6 +81,7 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
 .h1, .h2, .h3, .h4 {
 color: #ff9900;
   text-align: left;
@@ -97,7 +101,7 @@ body {
 
 @font-face {
    font-family: OpenType Font;
-   src: url(Calisto.MT.otf);
+   src: url(sansation_light.woff);
 }
 
 * {
