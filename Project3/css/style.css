@@ -87,12 +87,12 @@ body {
 }
 
 @font-face {
-   font-family: OpenType Font;
-   src: url(sansation_light.woff);
+ font-family: 'MyFont';
+  src: url('myfont/myfont.woff2') format('woff2');
 }
 
 * {
-   font-family: OpenType Font;
+   font-family: 'MyFont;
 }
 footer {
    position: absolute;
