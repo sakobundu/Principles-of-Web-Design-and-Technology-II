@@ -1,5 +1,5 @@
 body {
-  font-family: Arvo;
+  font-family: Cambria;
   margin: 0;
   background: #cccccc
 }
@@ -40,15 +40,15 @@ img {
 h1 {
 color: #54361c;
   text-align: left;
-font-family: Arvo;
+font-family: Cambria;
   font-size: 30px;
    padding: 14px 14px;
 }
 
 h2 {
- color:  #7a5535;
+ color:  #54361c;
   text-align: left;
-font-family: Arvo;
+font-family: Cambria;
   font-size: 20px;
 padding: 14px 14px 14px 14px;
 }
@@ -57,8 +57,8 @@ padding: 14px 14px 14px 14px;
 
 .footer {
    position: absolute;
-  background:#2f4a3b;
-   color: black;
+  background:#806934;
+   color: white;
    bottom: 2px;
    text-align: center;
    left: 40%;
