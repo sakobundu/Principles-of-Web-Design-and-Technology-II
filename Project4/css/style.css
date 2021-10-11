@@ -61,7 +61,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 10px;
-  resize: center;
+  resize: vertical;
 }
 
 input[type=submit] {
@@ -90,5 +90,5 @@ input[type=submit]:hover {
    bottom: 1px;
    text-align: center;
    left: 40%;
-   bottom: -3;
+   bottom: 1;
 }
