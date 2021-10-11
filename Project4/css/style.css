@@ -1,6 +1,7 @@
 body {
   font-family: Arvo;
   margin: 0;
+  background: #cccccc
 }
 
 img {
@@ -9,7 +10,6 @@ img {
   padding: 5px;
   width: 150px;
   display: block;
-  position: center;
 }
 
 .topnav {
@@ -36,7 +36,7 @@ img {
   color: white;
 }
 
-}
+
 h1 {
 color: #ff9900;
   text-align: left;
@@ -46,18 +46,21 @@ font-family: Arvo;
 }
 
 h2 {
- color:  green;
+ color:  #ff9900;
   text-align: left;
 font-family: Arvo;
-  font-size: 15px:
-padding: 14px 14px;
+  font-size: 30px;
+padding: 14px 14px 14px 14px;
 }
 
-}
-footer {
+
+
+.footer {
    position: absolute;
-  background-color: darkgreen;
+  background: darkgreen;
    color: white;
    bottom: 2px;
    text-align: center;
+   left: 40%;
+   bottom: -3%;
 }
