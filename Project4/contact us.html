@@ -6,6 +6,15 @@
     <meta tags keywords="channels of communication","splitstudiosdmv@gmail.com","social media","Instagram", "snapchat", "Twitter", "@Split_Studios" description= "Contact Us" copyright="Split Studios DMV, 2021 ©" author= "Sunday Akobundu" >
  	<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
 <style>
 
 </style>
@@ -28,11 +37,12 @@
 <p> You can contact us through many channels of communication. You can reach us through e-mail, and our several social media platforms.</p>
 <p>For inquiries, please complete the following:</p>
 
-<form action="mailto:splitstudiosdmv@gmail.com">
+<form name="myForm" action="mailto:splitstudiosdmv@gmail.com" onsubmit="return validateForm()" method="post" required>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
 <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" value=""><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
   <label for="Services">Choose Service:</label>
   <select id="Services" name="Services">
     <option value="Weddings">Weddings</option>
@@ -42,6 +52,7 @@
   </select>
   <input type="submit" value="Submit">
 </form>
+
 
   <figure>
    <a href="images/Snapchat.png"></a><img src="images/Snapchat.png" alt="Snapchat"> <figcaption>@Split_Studios.</figcaption> 
