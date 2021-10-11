@@ -61,7 +61,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 10px;
-  resize: centrt;
+  resize: center;
 }
 
 input[type=submit] {
