@@ -27,12 +27,12 @@ img {
 }
 
 .topnav a:hover {
-  background-color: #cccccc;
-  color: Black;
+  background-color: #ab937e;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: ##c27a3c;
+  background-color: #ab937e;
   color: white;
 }
 
@@ -61,7 +61,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 10px;
-  resize: vertical;
+  resize: centrt;
 }
 
 input[type=submit] {
