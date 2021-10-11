@@ -84,7 +84,7 @@ input[type=submit]:hover {
 }
 
 .footer {
-   position: fixed;
+   position: auto;
    color: black;
    bottom: 1px;
    text-align: center;
