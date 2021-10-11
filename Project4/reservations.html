@@ -6,6 +6,15 @@
     <meta tags keywords="cancellation policies","service orders","evet shoots","updates", "Questions", description="FAQs" copyright="Split Studios DMV, 2021 ©" author= "Sunday Akobundu" >
  	<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
 <style>
 
 </style>
@@ -25,6 +34,33 @@
 
 <h2>Reservations:</h2>
 <p> Our reservation policy requires a minimum of two to three weeks of advanced notice. We also accept reservations for a month to two months in advance maximum.  A deposit of a $50 non-refunded fee is required at the time of booking. The reservation fee will go towards the total event billing.</p>
+
+<h3>Make a Reservation:</h3>
+
+<div class="container">
+  <form name="myForm" action="mailto:splitstudiosdmv@gmail.com" onsubmit="return validateForm()" method="post" required>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+    <label for="country">State</label>
+    <select id="Sate" name="State">
+     <option value="select">Select</option>
+      <option value="australia">Maryland</option>
+      <option value="canada">Virginia</option>
+      <option value="usa">Washington DC</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 <div class="footer">
   <p> Split Studios DMV, 2021 ©.</p>
 <p id="demo"></p>
@@ -34,6 +70,5 @@ document.getElementById("demo").innerHTML = d;
 </script>
 <a href="https://app.termly.io/dashboard/website/bed23f09-9e46-4ca1-a2ed-6c2f00604d07/privacy-policy">Privacy Policy</a>
 </div>
-
 </body>
 </html>
