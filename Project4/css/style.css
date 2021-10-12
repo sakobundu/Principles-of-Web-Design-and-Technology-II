@@ -83,18 +83,6 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-div {
-  width: 23px;
-  height: 23px;
-  background: yellow;
-  transition-property: width;
-  transition-duration: 5s;
-  transition-delay: 2s;
-}
-
-div:hover {
-  width: 300px;
-}
 
 .footer {
    position: fixed;
