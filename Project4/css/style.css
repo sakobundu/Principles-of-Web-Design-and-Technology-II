@@ -86,7 +86,7 @@ input[type=submit]:hover {
 div {
   width: 23px;
   height: 23px;
-  background: red;
+  background: yellow;
   transition-property: width;
   transition-duration: 5s;
   transition-delay: 2s;
